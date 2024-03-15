@@ -18,9 +18,10 @@ const leetChar = {
   " ": " "
 }
 
-const leet = "LeEt CoDe"
+const leet = "L e E e t C o D e E e L e e T c O D E"
 
 let hackerLanguage = '';
 
 for(i = 0; i < leet.length; i++){ hackerLanguage += leetChar[leet[i].toUpperCase()]; }
 console.log(hackerLanguage);
+
